@@ -1,42 +1,45 @@
+
 # TodoMVC: React
 
-## Description
+## 描述
 
-This application uses React 17.0.2 to implement a todo application.
+该应用程序使用 React 17.0.2 实现了一个待办事项应用程序。将一个js项目转为ts。
 
--   [React](https://reactjs.org/) is a JavaScript library for creating user interfaces.
+- [React](https://reactjs.org/) 是一个用于创建用户界面的 JavaScript 库。
 
-## Implementation details
+## 实现细节
 
-React focuses mainly on providing composable user interfaces to enable developers to build an appealing website or web app. React does not force the user to utilize a particular design pattern, but it does provide useful hooks to implement an MVC pattern, if desired. 
+React 主要关注提供可组合的用户界面，以使开发者能够构建一个有吸引力的网站或 web 应用。React 不强制用户使用特定的设计模式，但它确实提供了有用的钩子来实现 MVC 模式，如果需要的话。
 
-React:\
-Model: Todo reducer (reducer.js)\
-View: React ui components\
-Controller: App component + useReducer hook
+### React:
 
-MVC:\
-Model: Maintains the data and behavior of an application\
-View: Displays the model in the ui\
-Controller: Serves as an interface between view & model components
+- **模型**: 待办事项 reducer (`reducer.js`)
+- **视图**: React 用户界面组件
+- **控制器**: `App` 组件 + `useReducer` 钩子
 
-## Build steps
+### MVC:
 
-To build the static files, this application utilizes webpack. It minifies and optimizes output files and copies all necessary files to a `dist` folder.
+- **模型**: 维护应用程序的数据和行为
+- **视图**: 在用户界面中显示模型
+- **控制器**: 作为视图和模型组件之间的接口
 
-## Requirements
+## 构建步骤
 
-The only requirement is an installation of Node, to be able to install dependencies and run scripts to serve a local server.
+为了构建静态文件，该应用程序使用了 webpack。它会对输出文件进行压缩和优化，并将所有必要的文件复制到 `dist` 文件夹。
 
-```
-* Node (min version: 18.13.0)
-* NPM (min version: 8.19.3)
-```
+## 要求
 
-## Local preview
+唯一的要求是安装 Node，以便能够安装依赖项并运行脚本来提供本地服务器。
 
 ```
-terminal:
+* Node (最低版本: 18.13.0)
+* NPM (最低版本: 8.19.3)
+```
+
+## 本地预览
+
+```
+终端:
 1. npm install
 2. npm run serve
 ```
