@@ -5,6 +5,3 @@ export const TOGGLE_ITEM = "TOGGLE_ITEM";
 export const REMOVE_ALL_ITEMS = "REMOVE_ALL_ITEMS";
 export const TOGGLE_ALL = "TOGGLE_ALL";
 export const REMOVE_COMPLETED_ITEMS = "REMOVE_COMPLETED_ITEMS";
-export const ADD_TODO = 'ADD_TODO';
-export const TOGGLE_TODO = 'TOGGLE_TODO';
-export const SET_FILTER = 'SET_FILTER';

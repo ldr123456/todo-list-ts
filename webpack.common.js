@@ -25,15 +25,15 @@ module.exports = {
         test: /\.(js)$/,
         exclude: /node_modules/,
         use: {
-            loader: "babel-loader",
-            options: {
-                presets: [
-                    ["@babel/preset-env", { targets: "defaults" }],
-                    ["@babel/preset-react", { runtime: "automatic" }],
-                ],
-            },
-        },
-    },
+          loader: 'babel-loader',
+          options: {
+            presets: [
+              ['@babel/preset-env', { targets: 'defaults' }],
+              ['@babel/preset-react', { runtime: 'automatic' }]
+            ]
+          }
+        }
+      },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: 'asset/resource'
@@ -42,7 +42,7 @@ module.exports = {
         test: /\.tsx?$/,
         use: 'ts-loader',
         exclude: /node_modules/
-      },
+      }
     ]
   }
 }
