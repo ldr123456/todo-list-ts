@@ -14,7 +14,7 @@ interface Todo {
 
 interface MainProps {
   todos: Todo[]
-  dispatch: React.Dispatch<any> // Replace with appropriate action type if available
+  dispatch: React.Dispatch<any> 
 }
 
 export const Main: React.FC<MainProps> = ({ todos, dispatch }) => {

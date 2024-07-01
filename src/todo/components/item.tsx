@@ -13,7 +13,7 @@ interface Todo {
 
 interface ItemProps {
   todo: Todo
-  dispatch: React.Dispatch<any> // Replace with appropriate action type if available
+  dispatch: React.Dispatch<any> 
   index: number
 }
 

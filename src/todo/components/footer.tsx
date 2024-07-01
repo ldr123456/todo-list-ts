@@ -12,7 +12,7 @@ interface Todo {
 
 interface FooterProps {
   todos: Todo[]
-  dispatch: React.Dispatch<any> // Replace with appropriate action type if available
+  dispatch: React.Dispatch<any>
 }
 
 export const Footer: React.FC<FooterProps> = ({ todos, dispatch }) => {
@@ -28,7 +28,6 @@ export const Footer: React.FC<FooterProps> = ({ todos, dispatch }) => {
     [dispatch]
   )
 
-  // prettier-ignore
   if (todos.length === 0)
         return null;
 

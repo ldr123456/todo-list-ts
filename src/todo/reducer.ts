@@ -1,13 +1,11 @@
 import { ADD_ITEM, UPDATE_ITEM, REMOVE_ITEM, TOGGLE_ITEM, REMOVE_ALL_ITEMS, TOGGLE_ALL, REMOVE_COMPLETED_ITEMS } from "./constants";
 
-// Type definition for the state of a single todo item
 interface TodoItem {
   id: string;
   title: string;
   completed: boolean;
 }
 
-// Action types
 type Action =
   | { type: typeof ADD_ITEM; payload: { title: string } }
   | { type: typeof UPDATE_ITEM; payload: { id: string; title: string } }
@@ -17,8 +15,6 @@ type Action =
   | { type: typeof TOGGLE_ALL; payload: { completed: boolean } }
   | { type: typeof REMOVE_COMPLETED_ITEMS };
 
-// This alphabet uses `A-Za-z0-9_-` symbols.
-// The order of characters is optimized for better gzip and brotli compression.
 let urlAlphabet =
   "useandom-26T198340PX75pxJACKVERYMINDBUSHWOLF_GQZbfghjklqvwyzrict";
 

@@ -4,7 +4,7 @@ import { Input } from './input'
 import { ADD_ITEM } from '../constants'
 
 interface HeaderProps {
-  dispatch: React.Dispatch<any> // Replace with appropriate action type if available
+  dispatch: React.Dispatch<any> 
 }
 
 export const Header: React.FC<HeaderProps> = ({ dispatch }) => {
