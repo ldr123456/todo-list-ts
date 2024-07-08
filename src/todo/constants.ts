@@ -1,3 +1,4 @@
+// 定义的一些常量，用来控制不同的操作
 export const ADD_ITEM = "ADD_ITEM";
 export const UPDATE_ITEM = "UPDATE_ITEM";
 export const REMOVE_ITEM = "REMOVE_ITEM";
